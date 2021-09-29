@@ -1,0 +1,39 @@
+nav {
+  background-color: rgba(46, 49, 49, 0.8);
+}
+
+#navbar {
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+
+body {
+  background-image: url("../img/derbi.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  height: 110vh;
+  background-position: top;
+  z-index: 1;
+}
+
+.background {
+  background-color: rgba(46, 49, 49, 0.5);
+  width: 100%;
+  min-height: 20px;
+  z-index: 2;
+}
+
+ header{
+  font-size: 40px;
+  color: black;
+  font-family: monospace;
+  top: 200px;
+  left: 10px;
+  display: block;
+  z-index: 3;
+  margin-bottom: 100px;
+  min-height: 20px;
+}
